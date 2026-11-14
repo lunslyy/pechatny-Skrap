@@ -104,7 +104,7 @@ dialog[open]{animation:fade .25s both}
   <div id="dbody"></div>
 </dialog>
 
-<script>document.write('<script src="data.js?t='+Date.now()+'"><\/script>')</script>
+<script src="data.js"></script>
 <script>
 const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
